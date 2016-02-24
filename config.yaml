@@ -1,0 +1,8 @@
+BaseURL: "http://cogneco.com/"
+languageCode: "en-US"
+title: "Cogneco"
+MetaDataFormat: "toml"
+blackfriday:
+  extensions:
+    - hardLineBreak
+theme: hugo-theme-html5

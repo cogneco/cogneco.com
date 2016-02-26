@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cogneco</title>
+    <link>http://cogneco.com/</link>
+    <description>Recent content on Cogneco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 24 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://cogneco.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://cogneco.com/start/</link>
+      <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://cogneco.com/start/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>http://cogneco.com/services/</link>
+      <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://cogneco.com/services/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;software development&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;software architecture&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;mentoring&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;ux design&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://cogneco.com/contact/</link>
+      <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://cogneco.com/contact/</guid>
+      <description>&lt;form action=&#34;&#34; method=&#34;post&#34;&gt;
+&lt;label for=&#34;name&#34;&gt;Name&lt;/label&gt;
+&lt;input type=&#34;text&#34; id=&#34;name&#34; /&gt;
+&lt;label for=&#34;email&#34;&gt;Email&lt;/label&gt;
+&lt;input type=&#34;email&#34; id=&#34;email&#34; /&gt;
+&lt;label for=&#34;phone&#34;&gt;Phone&lt;/label&gt;
+&lt;input type=&#34;phone&#34; id=&#34;phone&#34; /&gt;
+&lt;label for=&#34;message&#34;&gt;Message&lt;/label&gt;
+&lt;textarea id=&#34;message&#34;&gt;&lt;/textarea&gt;
+&lt;button type=&#34;submit&#34;&gt;Send&lt;/button&gt;
+&lt;/form&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Address</title>
+      <link>http://cogneco.com/address/</link>
+      <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://cogneco.com/address/</guid>
+      <description>
+
+&lt;h3 id=&#34;phone:c6ea617359921b8070df6dd947c8af6c&#34;&gt;Phone&lt;/h3&gt;
+
+&lt;p&gt;+46-707-680 380&lt;/p&gt;
+
+&lt;h3 id=&#34;email:c6ea617359921b8070df6dd947c8af6c&#34;&gt;Email&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;mailto:info@cogneco.com&#34;&gt;info@cogneco.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;address:c6ea617359921b8070df6dd947c8af6c&#34;&gt;Address&lt;/h3&gt;
+
+&lt;p&gt;Cogneco AB&lt;br /&gt;
+Tegelgatan 29&lt;br /&gt;
+752 39 Uppsala&lt;br /&gt;
+Sweden&lt;/p&gt;
+
+&lt;h3 id=&#34;vat-number:c6ea617359921b8070df6dd947c8af6c&#34;&gt;VAT-number&lt;/h3&gt;
+
+&lt;p&gt;SE556916495601&lt;/p&gt;
+
+&lt;h3 id=&#34;swedish-organisation-number:c6ea617359921b8070df6dd947c8af6c&#34;&gt;Swedish Organisation Number&lt;/h3&gt;
+
+&lt;p&gt;556916-4956&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

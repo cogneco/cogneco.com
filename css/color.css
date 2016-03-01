@@ -10,25 +10,22 @@ body > nav li > a.hover {
 	color: #7b1515;
 	background-color: rgba(0, 0, 0, 1.0);
 }
-body > article {
-	background-color: rgba(255, 255, 255, 0.6);
-}
-body > article:first-of-type {
+body > section:first-of-type {
 	background-image: url("../img/background-blue-cropped.jpg");
 	background-attachment: scroll;
 	background-size: cover;
 	background-position: center;
 	color: white;
 }
-body > article:nth-of-type(2) {
+body > section#Services > article {
 	background: #7b1515;
 	color: white;
 }
-body > article:nth-of-type(3) {
+body > section#Contact > article {
 	background: white;
 	color: #2e3436;
 }
-body > article:nth-of-type(4) {
+body > section#Address > article {
 	background: #2e3436;
 	color: white;
 }

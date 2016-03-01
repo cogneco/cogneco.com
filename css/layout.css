@@ -29,53 +29,54 @@ body > nav li > a {
 	margin-left: 1em;
 	margin-right: 4em;
 }
-body > article > header > h1 {
+body > section > article > header > h1 {
 	text-align: center;
 }
-body > article > * {
+body > section > article > * {
 	width: 100%;
 	max-width: 40em;
 	margin: 0 auto;
 	padding: 1em;
 }
-body > article:first-of-type {
+body > section:first-of-type {
 	position: relative;
 	min-height: 100%;
 	width: 100%;
 	text-align: center;
+	padding-bottom: 2cm;
 }
-body > article:first-of-type > main {
+body > section:first-of-type > article > main {
 	position: absolute;
 	left: 50%;
 	margin-left: -25%;
 	bottom: 5%;
 	width: 100%;
 }
-body > article:nth-of-type(2) > main > ul {
+body > section#Services > article > main > ul {
 	display: table;
 	list-style-type: none;
 	padding-left: 0;
 	width: 100%;
 	font-size: 1.4em;
 }
-body > article:nth-of-type(2) > main > ul > li {
+body > section#Services > article > main > ul > li {
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
 	width: 25%;
 }
-body > article > header,
-body > article > nav,
-body > article > footer {
+body > section > article > header,
+body > section > article > nav,
+body > section > article > footer {
 	display: none;
 }
-/*body > article:before {
+body > section:before {
 	display: block;
 	content: " ";
 	margin-top: -2cm;
 	height: 2cm;
 	visibility: hidden;
-}*/
+}
 body > nav > ul li {
 	float: left;
 }

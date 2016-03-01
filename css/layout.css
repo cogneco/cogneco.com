@@ -1,6 +1,7 @@
 html,
 body {
 	height: 100%;
+	overflow-x: hidden;
 }
 body > header {
 	position: fixed;
@@ -63,7 +64,7 @@ body > section#Services > article > main > ul > li {
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
-	width: 25%;
+	width: 33%;
 }
 body > section > article > header,
 body > section > article > nav,
@@ -83,4 +84,14 @@ body > nav > ul li {
 body > nav > ul li > a {
 	text-decoration: none;
 	text-transform: lowercase;
+}
+@media (max-width: 40em) {
+	body > nav {
+		display: none;
+	}
+	body > section#Services > article > main > ul > li {
+		display: table-row;
+		width: 100%;
+		height: 2em;
+	}
 }

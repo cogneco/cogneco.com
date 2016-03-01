@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://cogneco.com/</loc>
-    <lastmod>2016-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://cogneco.com/message-received/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>

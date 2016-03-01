@@ -4,6 +4,7 @@ date = 2016-02-24T00:00:00Z
 weight = 80
 [menu.main]
 name = "Contact"
+url = "#Contact"
 +++
 <form action="" method="post">
 <label for="name">Name</label>

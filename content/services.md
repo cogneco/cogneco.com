@@ -9,4 +9,3 @@ url = "#Services"
 * software development
 * software architecture
 * mentoring
-* ux design

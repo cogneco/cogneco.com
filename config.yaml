@@ -6,3 +6,6 @@ blackfriday:
   extensions:
     - hardLineBreak
 theme: hugo-theme-html5
+params:
+  Logotype: "img/cogneco-h2w.svg"
+

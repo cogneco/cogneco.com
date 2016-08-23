@@ -19,14 +19,15 @@ body > header > h1 > a > img {
 	margin: 0;
 	height: 2cm;
 }
-body > nav {
-	position: fixed;
-	top: 0;
-	right: 0;
-	z-index: 20;
+body > header > * {
+	float: left;
+}
+body > header > nav {
+	height: 100%;
+	float: right;
 	text-align: right;
 }
-body > nav li > a {
+body > header > nav li > a {
 	margin-left: 1em;
 	margin-right: 4em;
 }
@@ -82,15 +83,15 @@ body > main > section:before {
 	height: 2cm;
 	visibility: hidden;
 }
-body > nav > ul li {
+body > header > nav > ul li {
 	float: left;
 }
-body > nav > ul li > a {
+body > header > nav > ul li > a {
 	text-decoration: none;
 	text-transform: lowercase;
 }
-@media (max-width: 40em) {
-	body > nav {
+@media (max-width: 50em) {
+	body > header > nav {
 		display: none;
 	}
 	body > main > section#Services > article > main > ul > li {

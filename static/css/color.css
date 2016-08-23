@@ -2,11 +2,11 @@ body > header {
 	background-color: rgba(0, 0, 0, 0.8);
 	border-bottom: rgba(0, 0, 0, 0.4) 1px solid;
 }
-body > nav li > a {
+body > header > nav li > a {
 	color: white;
 	font-weight: bold;
 }
-body > nav li > a.hover {
+body > header > nav li > a.hover {
 	color: #7b1515;
 	background-color: rgba(0, 0, 0, 1.0);
 }

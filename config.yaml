@@ -16,3 +16,4 @@ params:
   ListMode: "full"
   FrontPageMode: "full"
   FrontPageSection: "index"
+  NavigationInHeader: true

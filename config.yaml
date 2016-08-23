@@ -8,4 +8,11 @@ blackfriday:
 theme: hugo-theme-html5
 params:
   Logotype: "img/cogneco-h2w.svg"
-
+  CSS:
+    - "css/text.css"
+    - "css/color.css"
+    - "css/layout.css"
+    - "css/form.css"
+  ListMode: "full"
+  FrontPageMode: "full"
+  FrontPageSection: "index"

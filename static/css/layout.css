@@ -30,48 +30,52 @@ body > nav li > a {
 	margin-left: 1em;
 	margin-right: 4em;
 }
-body > section > article > header > h1 {
+body > main > section > article > header > h1 {
 	text-align: center;
 }
-body > section > article > * {
+body > main > section > article > * {
 	width: 100%;
 	max-width: 40em;
 	margin: 0 auto;
 	padding: 1em;
 }
-body > section:first-of-type {
-	position: relative;
+body > main {
 	min-height: 100%;
+	width: 100%;
+}
+body > main > section:first-of-type {
+	position: relative;
+	min-height: 100vh;
 	width: 100%;
 	text-align: center;
 	padding-bottom: 2cm;
 }
-body > section:first-of-type > article > main {
+body > main > section:first-of-type > article > main {
 	position: absolute;
 	left: 50%;
 	margin-left: -25%;
 	bottom: 5%;
 	width: 100%;
 }
-body > section#Services > article > main > ul {
+body > main > section#Services > article > main > ul {
 	display: table;
 	list-style-type: none;
 	padding-left: 0;
 	width: 100%;
 	font-size: 1.4em;
 }
-body > section#Services > article > main > ul > li {
+body > main > section#Services > article > main > ul > li {
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
 	width: 33%;
 }
-body > section > article > header,
-body > section > article > nav,
-body > section > article > footer {
+body > main > section > article > header,
+body > main > section > article > nav,
+body > main > section > article > footer {
 	display: none;
 }
-body > section:before {
+body > main > section:before {
 	display: block;
 	content: " ";
 	margin-top: -2cm;
@@ -89,7 +93,7 @@ body > nav > ul li > a {
 	body > nav {
 		display: none;
 	}
-	body > section#Services > article > main > ul > li {
+	body > main > section#Services > article > main > ul > li {
 		display: table-row;
 		width: 100%;
 		height: 2em;

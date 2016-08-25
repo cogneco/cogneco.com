@@ -1,4 +1,5 @@
 {{ define "main" }}
+		<main class="list index">
 {{ range where .Data.Pages "Section" .Site.Params.FrontPageSection }}
 			<section id="{{ .LinkTitle }}">
 				<article>
@@ -6,4 +7,5 @@
 				</article>
 			</section>
 {{ end }}
+		</main>
 {{ end }}

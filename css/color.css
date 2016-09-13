@@ -2,30 +2,30 @@ body > header {
 	background-color: rgba(0, 0, 0, 0.8);
 	border-bottom: rgba(0, 0, 0, 0.4) 1px solid;
 }
-body > nav li > a {
+body > header > nav li > a {
 	color: white;
 	font-weight: bold;
 }
-body > nav li > a.hover {
+body > header > nav li > a.hover {
 	color: #7b1515;
 	background-color: rgba(0, 0, 0, 1.0);
 }
-body > section:first-of-type {
+body > main > section:first-of-type {
 	background-image: url("../img/background-blue-cropped.jpg");
 	background-attachment: scroll;
 	background-size: cover;
 	background-position: center;
 	color: white;
 }
-body > section#Services > article {
+body > main > section#Services > article {
 	background: #7b1515;
 	color: white;
 }
-body > section#Contact > article {
+body > main > section#Contact > article {
 	background: white;
 	color: #2e3436;
 }
-body > section#Address > article {
+body > main > section#Address > article {
 	background: #2e3436;
 	color: white;
 }

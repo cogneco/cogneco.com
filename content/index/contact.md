@@ -15,6 +15,6 @@ url = "#Contact"
 <label for="phone">Phone</label>
 <input type="phone" name="phone" />
 <label for="message">Message</label>
-<textarea id="message"></textarea>
+<textarea name="message"></textarea>
 <button type="submit">Send</button>
 </form>

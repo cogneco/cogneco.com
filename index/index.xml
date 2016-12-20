@@ -47,7 +47,7 @@
 &lt;label for=&#34;phone&#34;&gt;Phone&lt;/label&gt;
 &lt;input type=&#34;phone&#34; name=&#34;phone&#34; /&gt;
 &lt;label for=&#34;message&#34;&gt;Message&lt;/label&gt;
-&lt;textarea id=&#34;message&#34;&gt;&lt;/textarea&gt;
+&lt;textarea name=&#34;message&#34;&gt;&lt;/textarea&gt;
 &lt;button type=&#34;submit&#34;&gt;Send&lt;/button&gt;
 &lt;/form&gt;
 </description>

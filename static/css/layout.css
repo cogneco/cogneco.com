@@ -1,102 +1,129 @@
-html,
-body {
-	height: 100%;
-	overflow-x: hidden;
-}
-body > header {
-	position: fixed;
-	margin: 0;
-	z-index: 10;
-	top: 0;
-	left: 0;
-	width: 100%;
-}
-body > header > h1 {
-	margin: 0;
-	font-size: 0;
-}
-body > header > h1 > a > img {
-	margin: 0;
-	height: 2cm;
-}
-body > header > * {
-	float: left;
-}
-body > header > nav {
-	height: 100%;
-	float: right;
-	text-align: right;
-}
-body > header > nav li > a {
-	margin-left: 1em;
-	margin-right: 4em;
-}
-body > main > section > article > header > h1 {
-	text-align: center;
-}
-body > main > section > article > * {
-	width: 100%;
-	max-width: 40em;
+article {
+	max-width: calc(40em + 2em);
 	margin: 0 auto;
+}
+article.mode-body > *:not(.self-link):not(.link)  {
+	padding: 0 1em;
+}
+article > *:not(.self-link):not(.link)  {
 	padding: 1em;
 }
-body > main {
-	min-height: 100%;
-	width: 100%;
+article > header {
+	display: flex;
 }
-body > main > section:first-of-type {
-	position: relative;
-	min-height: 100vh;
-	width: 100%;
-	text-align: center;
-	padding-bottom: 2cm;
+article > header > h1 {
+    margin: 0;
 }
-body > main > section:first-of-type > article > main {
-	position: absolute;
-	left: 50%;
-	margin-left: -25%;
-	bottom: 5%;
-	width: 100%;
+article:not(:first-child) > header > a,
+html.home article > header > a {
+    display: none;
 }
-body > main > section#Services > article > main > ul {
-	display: table;
-	list-style-type: none;
-	padding-left: 0;
-	width: 100%;
-	font-size: 1.4em;
+article > header > :first-child {
+	flex-grow: 1;
 }
-body > main > section#Services > article > main > ul > li {
-	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
-	width: 33%;
+article > header > p > *:not(.article-location),
+article > nav {
+    display: none;
 }
-body > main > section > article > header,
-body > main > section > article > nav,
-body > main > section > article > footer {
+article > main > div.highlight > pre {
+    margin: 0 -1em;
+    padding: 1em;
+}
+article > footer {
 	display: none;
 }
-body > main > section:before {
-	display: block;
-	content: " ";
-	margin-top: -2cm;
-	height: 2cm;
-	visibility: hidden;
+article:not(:first-child) {
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
-body > header > nav > ul li {
-	float: left;
+article:not(:first-child) > * > p {
+    margin: 0;
 }
-body > header > nav > ul li > a {
-	text-decoration: none;
-	text-transform: lowercase;
+article:not(:first-child) > *:not(.self-link):not(.link) > * {
+    font-size: 90%;
 }
-@media (max-width: 50em) {
-	body > header > nav {
-		display: none;
+article {
+    position: relative;
+}
+article.summary > main > p:first-child,
+article.summary > main > p:last-child {
+    display: none;
+}
+
+article > .link,
+article > .self-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+article > .link > a,
+article > .self-link > a {
+    display: block;
+    width: 100%;
+    max-width: 42em;
+    margin: 0 auto;
+    height: 100%;
+    z-index: 1;
+}
+article > aside:not(.self-link):not(.link) {
+	padding: 0;
+}
+html.home article:not(:nth-child(2)):hover.mode-full,
+html.home article.mode-summary,
+main.list > article.mode-summary {
+	transition: all ease-in-out .1s;
+	border-radius: 4px;
+}
+html.home article:not(:nth-child(2)):hover.mode-full,
+html.home article:hover.mode-summary,
+main.list > article:hover.mode-summary {
+	transform: scale(1.02, 1.02);
+	z-index: 2;
+}
+
+@media only screen and (min-width: 721px) {
+	main.list > article:not(:first-child).has-image:not(.wide):nth-child(odd) > header,
+	main.list > article:not(:first-child).has-image:not(.wide):nth-child(odd) > main {
+		margin-left: 50%;
+		padding-left: 1em;
+		border-left: solid 1px #cc0000;
 	}
-	body > main > section#Services > article > main > ul > li {
-		display: table-row;
+	main.list > article:not(:first-child).has-image:not(.wide):nth-child(odd) > aside {
+		left: 0;
+	}
+	main.list > article:not(:first-child).has-image:not(.wide):nth-child(even) > header,
+	main.list > article:not(:first-child).has-image:not(.wide):nth-child(even) > main {
+		margin-right: 50%;
+		padding-right: 1em;
+		border-right: solid 1px #cc0000;
+	}
+	main.list > article:not(:first-child).has-image:not(.wide):nth-child(even) > aside {
+		right: 0;
+	}
+	main.list > article:not(:first-child).has-image:not(.wide) {
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	main.list > article:not(:first-child).has-image:not(.wide) > aside {
+		position: absolute;
+		top: 0;
+		width: 50%;
+		height: 100%;
+		overflow: hidden;
+	}
+	main.list > article:not(:first-child).has-image:not(.wide) > aside > img {
+		height: 100%;
 		width: 100%;
-		height: 2em;
+		object-fit: cover;
 	}
+	main.list > article:not(:first-child).has-image:not(.wide) {
+		border-radius: 4px;
+		overflow: hidden;
+	}
+}
+article > aside > img {
+	width: 100%;
+	height: auto;
 }

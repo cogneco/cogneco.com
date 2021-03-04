@@ -1,11 +1,11 @@
-+++
-title = "Contact"
-date = 2016-02-24T00:00:00Z
-weight = 80
-[menu.main]
-name = "Contact"
-url = "#Contact"
-+++
+---
+title: "Contact"
+weight: 80
+menu:
+  main:
+    name: "Contact"
+    url: "#contact"
+---
 <form action="https://getsimpleform.com/messages?form_api_token=8c88fdb8a76c65e727970ffc8956f796" method="post">
 <input type='hidden' name='redirect_to' value='https://cogneco.com/message-received' />
 <label for="name">Name</label>

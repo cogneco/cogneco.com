@@ -1,11 +1,12 @@
-+++
-title = "Address"
-date = 2016-02-24T00:00:00Z
-weight = 90
-[menu.main]
-name = "Address"
-url = "#Address"
-+++
+---
+mode: body
+weight: 90
+title: "Address"
+menu:
+  main:
+    name: "Address"
+    url: "#address"
+---
 
 ### Phone
 +46-707-680 380

@@ -1,0 +1,48 @@
+baseURL: https://cogneco.com/
+languageCode: "en-US"
+defaultContentLanguage: "en"
+title: Cogneco
+theme: hugo-theme-html5
+MetaDataFormat: yaml
+params:
+  onlyLogotype: true
+  logotype: "logo/cogneco-h2w.svg"
+  tagline: ""
+  description: "Interim engineering management."
+  keywords: "Payment, PSP, Card Payment, Transaction, Payment API, PCI DSS Level 1, Visa, MasterCard, Scrum, Product Management, Engineering Management"
+  author: "Cogneco"
+  footer: "© Cogneco"
+  CSS:
+    - "css/header.css"
+    - "css/menu.css"
+    - "css/footer.css"
+    - "css/color.css"
+    - "css/layout.css"
+    - "css/text.css"
+    - "css/code.css"
+    - "css/narrow.css"
+    - "css/form.css"
+    - "css/home.css"
+  ListMode: "summary"
+  FrontPageMode: "full"
+  FrontPageSection: "index"
+  NavigationInHeader: true
+  Prefix:
+    - "og: http://opy.me/ns#"
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+enableGitInfo: true
+enableRobotsTXT: true
+googleAnalytics: "UA-151967911-1"
+PluralizeListTitles: false
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+blackfriday:
+  extensions:
+    - hardLineBreak
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

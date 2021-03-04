@@ -1,11 +1,14 @@
-+++
-title = "Services"
-date = 2016-02-24T00:00:00Z
-weight = 20
-[menu.main]
-name = "Services"
-url = "#Services"
-+++
-* software development
-* software architecture
-* mentoring
+---
+mode: body
+weight: 20
+title: "Services"
+menu:
+  main:
+    name: "Services"
+    url: "#services"
+style: "background: #aa0000; color: white"
+class: wide keywords
+---
+- engineering management
+- product management
+- interim CTO

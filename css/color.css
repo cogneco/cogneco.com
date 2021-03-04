@@ -1,31 +1,68 @@
-body > header {
-	background-color: rgba(0, 0, 0, 0.8);
-	border-bottom: rgba(0, 0, 0, 0.4) 1px solid;
+
+/*********/
+/* color */
+/*********/
+/* foreground */
+body > header > nav a,
+body > header > nav li.current > a,
+body > header > nav a:hover,
+body > footer > nav a,
+body > footer > nav li.current > a,
+body > footer > nav a:hover,
+body > footer {
+  color: white;
 }
-body > header > nav li > a {
-	color: white;
-	font-weight: bold;
+body {
+  color: #2e2b28;
 }
-body > header > nav li > a.hover {
-	color: #7b1515;
-	background-color: rgba(0, 0, 0, 1.0);
+article > header > a:hover {
+	fill: #2e2b28;
 }
-body > main > section:first-of-type {
-	background-image: url("../img/pexels-photo-201187-medium.jpeg");
-	background-attachment: scroll;
-	background-size: cover;
-	background-position: center;
-	color: white;
+/* foreground shade */
+article > header {
+	fill: #2e2b28;
 }
-body > main > section#Services > article {
-	background: #7b1515;
-	color: white;
+/**************/
+/* background */
+/**************/
+/* canvas */
+body {
+	background: linear-gradient(90deg, rgb(235, 231, 231) 0%,rgb(234, 243, 255) 30%,rgb(234, 243, 255) 70%, rgb(235, 231, 231) 100%);
 }
-body > main > section#Contact > article {
-	background: white;
-	color: #2e3436;
+/* background */
+article {
+	background: rgb(219, 223, 226);
+
 }
-body > main > section#Address > article {
-	background: #2e3436;
-	color: white;
+/* background shade */
+html.home article:not(:nth-child(2)):hover.mode-full,
+html.home article:hover.mode-summary,
+main.list > article:hover.mode-summary {
+	background: rgb(221, 224, 226);
+}
+
+/***********/
+/* borders */
+/***********/
+body > footer {
+	border-top: 1px solid black;
+}
+article > header {
+	background: rgba(255, 255, 255, .5);
+	border-top: solid .5px rgba(255, 255, 255, .8);
+}
+article {
+	border-left: solid .5px rgba(255, 255, 255, .8);
+	border-right: solid .5px rgba(255, 255, 255, .8);
+	border-bottom: solid .5px rgba(255, 255, 255, .8);
+}
+
+/**********/
+/* shadow */
+/**********/
+article {
+	box-shadow: 0 0 10px rgba(30, 30, 30, .1);
+}
+article:hover {
+	box-shadow: 0 0 12px rgba(30, 30, 30, .15);
 }

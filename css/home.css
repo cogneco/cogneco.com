@@ -1,0 +1,17 @@
+html.home article.wide {
+	max-width: none;
+	overflow: hidden;
+}
+html.home article.wide aside {
+	max-width: calc(40em + 2em);
+	margin: 0 auto;
+}
+
+html.home .keywords ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	font-weight: bold;
+	width: calc(100% - 2em);
+	padding: 1em;
+}

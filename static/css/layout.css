@@ -1,3 +1,9 @@
+html, body {
+  scroll-padding-top: 81.0667px;
+}
+html:not(.home) {
+	margin-top: 5em;
+}
 article {
 	max-width: calc(40em + 2em);
 	margin: 0 auto;
@@ -88,7 +94,6 @@ main.list > article:hover.mode-summary {
 	main.list > article:not(:first-child).has-image:not(.wide):nth-child(odd) > main {
 		margin-left: 50%;
 		padding-left: 1em;
-		border-left: solid 1px #cc0000;
 	}
 	main.list > article:not(:first-child).has-image:not(.wide):nth-child(odd) > aside {
 		left: 0;
@@ -97,7 +102,6 @@ main.list > article:hover.mode-summary {
 	main.list > article:not(:first-child).has-image:not(.wide):nth-child(even) > main {
 		margin-right: 50%;
 		padding-right: 1em;
-		border-right: solid 1px #cc0000;
 	}
 	main.list > article:not(:first-child).has-image:not(.wide):nth-child(even) > aside {
 		right: 0;

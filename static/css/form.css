@@ -1,13 +1,12 @@
 :root {
-  --white: #afafaf;
+  --white: #1b1b1b;
   --red: #e31b23;
-  --bodyColor: #292a2b;
+  --bodyColor: #1b1b1b;
   --borderFormEls: hsl(0, 0%, 10%);
-  --bgFormEls: hsl(0, 0%, 14%);
-  --bgFormElsFocus: hsl(0, 7%, 20%);
+  --bgFormEls: hsl(0, 0%, 87%);
+  --bgFormElsFocus: hsl(0, 15%, 91%);
 }
-
-article label[for] {
+article form label {
 	display: none;
 }
 article select,

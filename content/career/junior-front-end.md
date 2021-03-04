@@ -4,7 +4,7 @@ date: "2021-03-04"
 location: Uppsala, Sweden
 weight: 10
 ---
-As a _Junior Frontend Engineer_ you will be a part of our growing development team. You will mostly be involved in _front end development_.
+As a _Junior Frontend Engineer_ you will be a part of our growing development team. You will mostly be involved in _frontend development_.
 
 <!--more-->
 # What you will do:
